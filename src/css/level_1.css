@@ -1,0 +1,43 @@
+html, body {
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center
+}
+.Canvas{
+    background-color: #9c6;
+    border-radius: 5px;
+    padding: 10px;
+    zoom: 2;
+}
+p{  font-size: 14px;
+    color: green;
+}
+.rules{
+    background-color: #99cc66;
+    width: 25%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.rightColumn{
+    background-color: #99cc66;
+    padding: 20px;
+    border-radius: 5px;
+}

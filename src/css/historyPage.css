@@ -1,0 +1,60 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+html, body {
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.historyDiv{
+    background-image: url("./img/history.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.history{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size: 10px;
+}
+button{
+    margin: 10px;
+    border-radius: 5px;
+}
+a:hover {
+    /* Цвет при наведении */
+    color: black;
+}
+
+a:visited {
+    /* Цвет посещённой ссылки */
+    color: black;
+}
+
+a:active {
+    /* Цвет ссылки при клике */
+    color: black;
+}

@@ -1,0 +1,103 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+html, body {
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.textFinal{
+    display: flex;
+    width:400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #99cc66;
+    border-radius: 30px;
+    border: 2px solid black;
+
+
+    font-size: 26px;
+}
+
+.currentPlayer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.levelAndScore{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+    background-color: #99cc66;
+    border-radius: 30px;
+    border: 2px solid black;
+
+
+    font-size: 22px;
+}
+.recordTable {
+    /*width: 300px;*/
+    /*height: 200px;*/
+    /*margin: auto;*/
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+
+    background-color: #99cc66;
+    font-size: 22px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+#buttonRestart {
+    /*width: 250px;*/
+    /*height: 100px;*/
+    border-radius: 14px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+#buttonMenu {
+    /*width: 250px;*/
+    /*height: 100px;*/
+    border-radius: 14px;
+    font-size: 22px;
+    padding: 10px;
+}
+td {
+    padding: 5px;
+}
+
+a:hover {
+    /* Цвет при наведении */
+    color: black;
+}
+
+a:visited {
+    /* Цвет посещённой ссылки */
+    color: black;
+}
+
+a:active {
+    /* Цвет ссылки при клике */
+    color: black;
+}

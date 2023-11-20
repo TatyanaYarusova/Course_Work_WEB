@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/gameOverPage.css">
+    <meta charset="UTF-8">
+    <title>Game over</title>
+</head>
+<body>
+<div class="textFinal">
+    <p>Игра окончена!</p>
+</div>
+<div class="currentPlayer">
+    <div class="levelAndScore">
+        <p>Ваше имя: <span id="currentUser"></span></p>
+        <p>Ваш уровень: <span id="currentLevel"></span></p>
+        <p>Ваши очки: <span id="currentScore"></span></p>
+    </div>
+
+    <div class="recordTable">
+        <table id="leaderboard">
+            <caption>Таблица лидеров</caption>
+            <thead>
+            <tr>
+                <td>Игрок</td>
+                <td>Рекорд</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr id>
+                <td id="1_name"></td>
+                <td id="1_score"></td>
+            </tr>
+            <tr>
+                <td id="2_name"></td>
+                <td id="2_score"></td>
+            </tr>
+            <tr>
+                <td id="3_name"></td>
+                <td id="3_score"></td>
+            </tr>
+            <tr>
+                <td id="4_name"></td>
+                <td id="4_score"></td>
+            </tr>
+            <tr>
+                <td id="5_name"></td>
+                <td id="5_score"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="button">
+    <button id="buttonRestart"><a href="level_1.html">Начать сначала</a></button>
+    <button id="buttonMenu"><a href="init.html">Меню</a></button>
+</div>
+<script src="../scripts/gameOver.js" type="module"></script>
+</body>
+</html>

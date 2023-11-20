@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/level_1.css">
+    <title>Level_2</title>
+</head>
+<body>
+<div class="container">
+  <div class="rules">
+    <p>Клавиши для управления:</p>
+    <p>Стрелка влево - перемещение игрока влево</p>
+    <p>Стрелка вправо - перемещение игрока вправо</p>
+    <p>Стрелка вверх - перемещение игрока наверх</p>
+    <p>Стрелка вниз - перемещение игрока вниз</p>
+    <p>Enter - разрушить препятствие</p>
+    <p>Пробел - выстрел</p>
+  </div>
+
+  <div class="Canvas">
+    <canvas id="playField" width="480px" height="320px"></canvas>
+  </div>
+
+  <div class="rightColumn">
+    <p>Игрок: <span id="userName"></span></p>
+    <p>Уровень: <span id="level">2</span></p>
+    <p>Очки: <span id="score">0</span></p>
+    <p>Количество жизней: <span id="health">0</span></p>
+  </div>
+</div>
+<script src="../scripts/game.js" type="module"></script>
+
+</body>
+</html>
